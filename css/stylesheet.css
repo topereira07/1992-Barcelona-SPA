@@ -1,0 +1,448 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  margin: 0;
+}
+
+.card-body {
+    font-family: Arial, sans-serif;
+    margin-left: 2%;
+    margin-top: 0%;
+    padding: 0;
+    background-color: #f4f4f4;
+    
+}
+
+#olympicContainer {
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  top: 0;
+  left: 0;
+  background-image: url("../barcelona.jpg");
+  background-size: contain;
+  background-position: 0 0;
+  background-attachment: fixed;
+  animation: animatedBackground 500s linear infinite;
+  border-radius: 15px;
+}
+
+@keyframes animatedBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -10000px 0;
+  }
+}
+
+#quizzContainer {
+  width: 800px;
+  height: 600px;
+  background-image: url("../quizzBackground.webp");
+  background-size: cover;
+  margin: 50px;
+  overflow: hidden;
+  border-radius: 15px;
+
+}
+
+#raceContainer {
+  width: 500px;
+  height: 200px;
+  background-image: url("../track.png");
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+}
+
+#timeMachineContainer {
+    background-color: green;
+    height: 100vh;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+}
+
+#swimmerContainer {
+  width: 50px;
+  height: 600px;
+  top: 20;
+  align-items: flex-end;
+  background-color: blue;
+  border-radius: 15px;
+}
+
+#hallOfFameContainer {
+  height: 100vh;
+  margin: 0%;
+  padding: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("../pista.jpeg");
+  background-size: cover;
+  border-radius: 15px;
+}
+
+.quizzImage {
+  width: 200px;
+  width: 200px;
+}
+
+#runButton {
+  position: relative;
+  transition: 0.5s transform;
+  width: 150px;
+  height: 150px;
+}
+
+#player1 {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+
+#player2 {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+
+#player3 {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+
+#player4 {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+
+header {
+  background-color: #ffcc00;
+  padding: 20px;
+  text-align: center;
+  font-size: 2em;
+
+  background-color: #ffcc00;
+  padding: 20px;
+  text-align: center;
+  font-size: 2em;
+}
+
+header img {
+  margin-left: 0%;
+  margin-top: 1%;
+  max-width: 100%;
+  height: auto;
+}
+
+.timeline {
+  padding: 20px;
+}
+
+.timeline-event {
+  background: white;
+  margin: 20px 0;
+  padding: 10px;
+  border-left: 5px solid #ffcc00;
+}
+
+.timeline-event h2 {
+  margin-top: 0;
+}
+
+.redirect-button {
+  margin-top: 50px;
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  background-color: #ffcc00;
+  color: black;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.redirect-button:hover {
+  background-color: #b12411;
+}
+header img {
+  margin-left: 0%;
+  margin-top: 1%;
+  max-width: 100%;
+  height: auto;
+}
+
+.timeline {
+  padding: 20px;
+}
+
+.timeline-event {
+  background: white;
+  margin: 20px 0;
+  padding: 10px;
+  border-left: 5px solid #ffcc00;
+}
+
+.timeline-event h2 {
+  margin-top: 0;
+}
+
+.redirect-button {
+  margin-top: 50px;
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  background-color: #ffcc00;
+  color: black;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.redirect-button:hover {
+  background-color: #b12411;
+}
+
+.audio-controls {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.audio-controls button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #ffcc00;
+  border: none;
+  cursor: pointer;
+}
+
+.audio-controls button:hover {
+  background-color: #ffb700;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #ffcc00;
+}
+.audio-controls {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.audio-controls button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #ffcc00;
+  border: none;
+  cursor: pointer;
+}
+
+.audio-controls button:hover {
+  background-color: #ffb700;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #ffcc00;
+}
+
+#countriesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: scroll;
+  width: 60vw;
+  height: 60vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  top: 0;
+  left: 0;
+  background-image: url("../barcelona.jpg");
+  background-size: contain;
+  background-position: 0 0;
+  background-attachment: fixed;
+  animation: animatedBackground 500s linear infinite;
+  border-radius: 15px;
+
+}
+
+.countryDiv {
+  text-align: center;
+  background-color: grey;
+  padding: 20px;
+  margin: 20px;
+}
+
+#clueImg {
+  width: 300px;
+}
+
+#light {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+#jumpCharacter {
+  width : 50px;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: verdana;
+  font-weight: 700;
+  color: white;
+  text-shadow: 1px 1px 1px black,
+      1px 2px 1px black,
+      1px 3px 1px black,
+      1px 4px 1px black,
+      1px 5px 1px black,
+      1px 6px 1px black,
+      1px 7px 1px black,
+      1px 8px 1px black,
+      1px 9px 1px black,
+      1px 10px 1px black,
+  1px 18px 6px rgba(16,16,16,0.4),
+  1px 22px 10px rgba(16,16,16,0.2),
+  1px 25px 35px rgba(16,16,16,0.2),
+  1px 30px 60px rgba(16,16,16,0.4);
+}
+
+button {
+  --c: orange;
+  /* text color */
+  background: linear-gradient(90deg, #0000 33%, #fff5, #0000 67%) var(--_p,100%)/300% no-repeat,
+    lightblue;
+  /* background color */
+  color: #0000;
+  border: none;
+  transform: perspective(500px) rotateY(calc(20deg*var(--_i,-1)));
+  text-shadow: calc(var(--_i,-1)* 0.08em) -.01em 0   var(--c),
+    calc(var(--_i,-1)*-0.08em)  .01em 2px #0004;
+  outline-offset: .1em;
+  transition: 0.3s;
+}
+
+button:hover,
+button:focus-visible {
+  --_p: 0%;
+  --_i: 1;
+}
+
+button:active {
+  text-shadow: none;
+  color: var(--c);
+  box-shadow: inset 0 0 9e9q #0005;
+  transition: 0s;
+}
+
+button   {
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 0;
+  cursor: pointer;
+  padding: .1em .3em;
+}
+
+p {
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 20px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
+
+h3{
+  color: rgba(255,0,0,0.1);
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-size: cover;
+  background-image: url(https://cdn-images-1.medium.com/max/2000/1*Jalb56N34pBIGCjQULtW3A.jpeg);
+  -webkit-background-clip: text;
+  animation: background-text-animation 15s linear infinite;
+}
+@keyframes background-text-animation {
+  0%{
+    background-position: left 0px top 50%;
+  }
+  50%{
+    background-position: left 1500px top 50%;
+  }
+  100%{
+    background-position: left 0px top 50%;
+  }
+}
+
+#questionsDiv {
+  display : flex;
+  flex-wrap: wrap;
+}
+
+#questionsDiv button, p {
+  margin: 40px;
+}
+
+
