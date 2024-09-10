@@ -6,6 +6,7 @@ export async function getCountries() {
     const response = await fetch(API_URL);
 
     if(!response.ok) {
+        throw new Error(`Failed to fetch countries: ${response.status} ${response.statusText}`);
     }
 
     return response.json();
